@@ -1,0 +1,45 @@
+html{ 
+    background: #222;
+    color:aquamarine;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+aside {
+    float:right;border-style:outset; border:1%; padding:1%; margin:1%; border-color:rgb(225,235,225);
+}
+
+body {
+    float:left;
+}
+
+button {     
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    float: center;
+}
+
+ td {
+  border: 1px solid #fff;
+  padding: 1px 15px;
+}
+
+input[type=text], select {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit],input[type=reset] {
+  width: 10%;
+  color:dimgrey;
+  padding: 10px 5px;
+  margin: 8px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
